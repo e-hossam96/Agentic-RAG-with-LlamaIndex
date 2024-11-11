@@ -1,0 +1,25 @@
+name: agentic-rag
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.11.9
+  - pip=24.2
+  - jupyter=1.0.0
+  - jupyterlab=4.2.5
+  - notebook=7.2.2
+  - ipywidgets=8.1.5
+  - pip:
+      - python-dotenv==1.0.1
+      - wandb==0.18.6
+      - weave==0.51.19
+      - emoji==2.14.0
+      - rich[jupyter]==13.9.2
+      - tqdm==4.66.5
+      - pydantic==2.9.2
+      - pydantic-settings==2.6.1
+      - PyMuPDF==1.24.13
+      - openai==1.54.3
+      - llama-index==0.11.22
+      - nest-asyncio==1.6.0
